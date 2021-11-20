@@ -36,14 +36,23 @@
 	color: #fff;
 }
 
+.cuadrodentro {
+	border: 1px solid #F8B334;
+	width: 100%;
+	height: 100%;
+	padding: 15px 19px;
+}
+
 .cuadrolink {
 	display: block;
-	width: 320px;
+	padding: 2px;
+	margin: auto;
+	border: 1px solid #F8B334;
 	color: #F8B334;
 	text-decoration: none;
-	padding: 7px;
-	border: 3px solid #F8B334;
-	margin: auto;
+	width: 360px;
+	font-weight: 600;
+
 }
 
 #banner a:hover {
@@ -52,6 +61,20 @@
 
 .cuadrolink:hover {
 	background: rgba(151,151,151,.5);
+	color: #fff;
+	background-color: #F8B334;
+
+	-webkit-transition: background-color 500ms linear;
+    -moz-transition: background-color 500ms linear;
+    -o-transition: background-color 500ms linear;
+    -ms-transition: background-color 500ms linear;
+    transition: background-color 500ms linear;
+
+	-webkit-transition: color 500ms linear;
+    -moz-transition: color 500ms linear;
+    -o-transition: color 500ms linear;
+    -ms-transition: color 500ms linear;
+    transition: color 500ms linear;
 }
 
 @media (min-width: 480px) {

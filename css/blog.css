@@ -18,7 +18,7 @@
 .imagen-de-fondo {
     background: url(../img/import.jpg);
     background-position: center center;
-    padding: 10px;
+    padding: 6px;
     background-repeat: none;
 }
 
@@ -30,10 +30,10 @@
 }
 
 #blog article {
-	margin: 15px 8px;
+	margin: 6px 6px;
 	max-width: 420px;
 	background: rgba(0,0,0,.8);
-	padding: 10px 10px;
+	padding: 6px 6px;
     box-sizing: border-box;
     border-radius: 10px;
 }
