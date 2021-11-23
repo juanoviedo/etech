@@ -8,7 +8,7 @@
     display: flex;
 	justify-content: center;
     box-sizing: border-box;
-	padding: 40px 0px;
+	padding: 80px 0px;
 }
 
 .normal {
@@ -22,42 +22,44 @@
 
 /* .content > .text-content, .img-content { */
 .content > div {
-    margin: 2vw;
-    min-width: 300px;
+    margin: 10px 40px;
+    min-width: 200px;
 	max-width: 500px;
-    box-sizing: border-box;
+    display: flex;
+	flex: 1 1 0px;
 }
 
-.content > div > h2 {
+.content > div > div {
+	margin: auto 0;
+}
+
+.content > div > div > h2 {
     color: var(--custom-primary);
-	margin: 2vw 0vw;
+	margin: 12px 0vw;
 	letter-spacing: -1px;
-	font-size: 28px;
+	font-size: 4vh;
 }
 
-.content > div > p {
+.content > div > div > p {
+	font-size: 2.2vh;
 	margin-bottom: 2vh;
 	line-height: 1.4;
 }
-.content > div > p > a {
+.content > div > div > p > a {
 	color: var(--custom-secondary);
 	text-decoration: none;
-}
-
-.img-content {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	width: 100%;
+	font-size: 2.2vh;
 }
 
 .img-container {
     width: 100%;
-	vertical-align: middle;
+}
+
+.img-container > img {
+	display: block;
 }
 
 .cuadrolink {
-	margin-bottom: 3vh;
 	display: block;
 	padding: 2px;
 	border: 1px solid var(--custom-primary);
@@ -66,7 +68,7 @@
 	font-weight: 600;
 	text-align: center;
 	width: fit-content;
-	font-size: 18px;
+	font-size: 2.4vh;
 
 	-webkit-transition: background-color 400ms linear, color 400ms linear;
 	-moz-transition: background-color 400ms linear, color 400ms linear;
@@ -79,7 +81,7 @@
 	border: 1px solid var(--custom-primary);
 	width: 100%;
 	height: 100%;
-	padding: 14px 24px;
+	padding: 2vh 3vh;
 }
 
 .cuadrolink:hover {
