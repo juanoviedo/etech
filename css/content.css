@@ -1,0 +1,94 @@
+
+:root {
+	--custom-primary: #2175bb;
+	--custom-secondary: #F8B334;
+  }
+
+.content {
+    display: flex;
+	justify-content: center;
+    box-sizing: border-box;
+	padding: 40px 0px;
+}
+
+.normal {
+	flex-wrap: wrap;
+}
+
+.reverse {
+	flex-wrap: wrap-reverse;
+	background-color: #eee;
+}
+
+.content > div {
+    margin: 2vw;
+    min-width: 300px;
+	max-width: 500px;
+    box-sizing: border-box;
+}
+
+.content > div > h2 {
+    color: var(--custom-primary);
+	margin: 2vw 0vw;
+	letter-spacing: -1px;
+	font-size: 28px;
+}
+
+.content > div > p {
+	margin-bottom: 2vh;
+	line-height: 1.4;
+}
+.content > div > p > a {
+	color: var(--custom-secondary);
+	text-decoration: none;
+}
+
+.img-content {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+}
+
+.img-container {
+    width: 100%;
+	vertical-align: middle;
+}
+
+.cuadrolink {
+	margin-bottom: 3vh;
+	display: block;
+	padding: 2px;
+	border: 1px solid var(--custom-primary);
+	color: var(--custom-primary);
+	text-decoration: none;
+	font-weight: 600;
+	text-align: center;
+	width: fit-content;
+	font-size: 18px;
+
+	-webkit-transition: background-color 400ms linear, color 400ms linear;
+	-moz-transition: background-color 400ms linear, color 400ms linear;
+	-o-transition: background-color 400ms linear, color 400ms linear;
+	-ms-transition: background-color 400ms linear, color 400ms linear;
+	transition: background-color 400ms linear, color 400ms linear;
+}
+
+.cuadrodentro {
+	border: 1px solid var(--custom-primary);
+	width: 100%;
+	height: 100%;
+	padding: 14px 24px;
+}
+
+.cuadrolink:hover {
+	background: rgba(151,151,151,.5);
+	color: #fff;
+	background-color: var(--custom-primary);
+
+	-webkit-transition: background-color 400ms linear, color 400ms linear;
+	-moz-transition: background-color 400ms linear, color 400ms linear;
+	-o-transition: background-color 400ms linear, color 400ms linear;
+	-ms-transition: background-color 400ms linear, color 400ms linear;
+	transition: background-color 400ms linear, color 400ms linear;
+}

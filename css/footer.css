@@ -1,0 +1,21 @@
+footer > div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 25px;
+    max-width: 450px;
+    margin: auto;
+}
+
+footer > div > p {
+    text-align: center;
+    margin: 2vw;
+    color: rgb(33,117,187);
+}
+
+footer > div > div > a {
+    color: rgb(33,117,187);
+    text-decoration: none;
+    margin: 1vw;
+    font-size: 2em;
+}
