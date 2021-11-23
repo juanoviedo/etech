@@ -1,6 +1,7 @@
 #blog > div > h2 {
 	margin: 1vw;
 	color: #fff;
+	margin: 1vw;
 }
 
 #blog > div > p {
@@ -25,14 +26,14 @@
 	text-decoration: none;
 }
 
-.imagen-de-fondo {
+#blog {
     background: url(../img/import.jpg);
     background-position: center center;
-    padding: 6px;
+    padding: 2vw;
 }
 
 #blog .contenedor {
-	margin: 3vw auto;
+	margin: 2vw auto;
 	padding: 1vw;
 	background: rgba(0,0,0,.4);
 	display: flex;
@@ -41,7 +42,6 @@
     box-sizing: border-box;
 	border-radius: 10px;
 	text-align: center;
-	padding: 2vw 0vw;
 }
 
 #blog article {

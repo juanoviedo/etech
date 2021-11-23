@@ -20,6 +20,7 @@
 	background-color: #eee;
 }
 
+/* .content > .text-content, .img-content { */
 .content > div {
     margin: 2vw;
     min-width: 300px;
