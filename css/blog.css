@@ -5,7 +5,7 @@
 }
 
 #blog > div > p {
-	margin: 1vw;
+	margin: 10px;
 	color: #fff;
 	
 }
@@ -29,18 +29,18 @@
 #blog {
     background: url(../img/import.jpg);
     background-position: center center;
-    padding: 2vw;
+	padding: 20px;
 }
 
 #blog .contenedor {
 	margin: 2vw auto;
-	padding: 1vw;
+	padding: 10px;
 	background: rgba(0,0,0,.4);
 	display: flex;
 	justify-content: center;
 	flex-wrap: wrap;
     box-sizing: border-box;
-	border-radius: 10px;
+	border-radius: 15px;
 	text-align: center;
 }
 
